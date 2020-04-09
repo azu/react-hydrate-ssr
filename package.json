@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "12.16.2",
-    "npm": "6.14.4"
-  },
+    "node": "12.16.x"
+    },
   "dependencies": {
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
