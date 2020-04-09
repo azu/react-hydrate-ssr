@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NewsList from "./newsList";
 import "isomorphic-fetch";
-import orderBy from "lodash.orderBy";
+import orderBy from "lodash.orderby";
 import ie18labels from "../../ie18labels/ie18labels"
 
 const API = 'https://hn.algolia.com/api/v1/search?hitsPerPage=100&query=';
