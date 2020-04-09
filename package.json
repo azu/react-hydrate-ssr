@@ -16,7 +16,7 @@
     "express": "^4.17.1",
     "ignore-styles": "^5.0.1",
     "isomorphic-fetch": "^2.2.1",
-    "lodash.orderby": "^4.6.0",
+    "lodash.orderby": "4.6.0",
     "node-time-ago": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
