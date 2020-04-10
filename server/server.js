@@ -7,10 +7,10 @@ import ReactDOMServer from 'react-dom/server'
 
 import App from '../src/App'
 
-const PORT = 8080
-const app = express()
+const PORT = process.env.PORT || 8080;
+const app = express();
 
-const router = express.Router()
+const router = express.Router();
 
 const serverRenderer = (req, res, next) => {
   fs.readFile(path.resolve('./build/index.html'), 'utf8', (err, data) => {
