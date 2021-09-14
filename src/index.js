@@ -5,6 +5,8 @@ import App from './App';
 
 import * as serviceWorker from './serviceWorker';
 
+const commentMark = document.createComment('This is inserted before hydrate!!');
+document.querySelector("#test-target").append(commentMark);
 ReactDOM.hydrate(
     <App />,
   document.getElementById('root')
